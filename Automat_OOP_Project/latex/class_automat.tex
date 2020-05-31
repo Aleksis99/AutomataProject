@@ -1,0 +1,166 @@
+\hypertarget{class_automat}{}\doxysection{Automat Class Reference}
+\label{class_automat}\index{Automat@{Automat}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_automat_aa6d1e138e843c82127e622fde204fe8e}\label{class_automat_aa6d1e138e843c82127e622fde204fe8e}} 
+{\bfseries Automat} (int id, \mbox{\hyperlink{class_set}{Set}}$<$ char $>$ alphabet, \mbox{\hyperlink{class_set}{Set}}$<$ \mbox{\hyperlink{class_state}{State}} $>$ states)
+\item 
+\mbox{\Hypertarget{class_automat_a4b8204498b1de7f1b693c8c87002a1fb}\label{class_automat_a4b8204498b1de7f1b693c8c87002a1fb}} 
+{\bfseries Automat} (int id, \mbox{\hyperlink{class_set}{Set}}$<$ char $>$ alphabet)
+\item 
+\mbox{\Hypertarget{class_automat_a8d90998b9c5977421f572bea2c5e8206}\label{class_automat_a8d90998b9c5977421f572bea2c5e8206}} 
+{\bfseries Automat} (int id)
+\item 
+\mbox{\Hypertarget{class_automat_a38e24bd9d600f7ea560d14a9ee09f21c}\label{class_automat_a38e24bd9d600f7ea560d14a9ee09f21c}} 
+\mbox{\hyperlink{class_automat_a38e24bd9d600f7ea560d14a9ee09f21c}{Automat}} (\mbox{\hyperlink{class_string}{String}} \&, \mbox{\hyperlink{class_set}{Set}}$<$ char $>$)
+\begin{DoxyCompactList}\small\item\em Constuctor that creates an automat from a regex expresion and set of symbols(alphabet). \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_automat_a16a5760e0f14ce9a5a78667b2fc140eb}{Automat}} (\mbox{\hyperlink{class_string}{String}} \&, \mbox{\hyperlink{class_set}{Set}}$<$ char $>$, bool)
+\item 
+\mbox{\Hypertarget{class_automat_af7fa7b4710ca4a72fd46c3cab20bf824}\label{class_automat_af7fa7b4710ca4a72fd46c3cab20bf824}} 
+int \mbox{\hyperlink{class_automat_af7fa7b4710ca4a72fd46c3cab20bf824}{Get\+Id}} () const
+\begin{DoxyCompactList}\small\item\em Getter for the id. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_automat_a7bc796fe19c855cf4fbe4c95429f3645}\label{class_automat_a7bc796fe19c855cf4fbe4c95429f3645}} 
+\mbox{\hyperlink{class_automat}{Automat}} \mbox{\hyperlink{class_automat_a7bc796fe19c855cf4fbe4c95429f3645}{Build\+Automat\+By\+Symbol}} (char) const
+\begin{DoxyCompactList}\small\item\em Builds an automat by a single symbol. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_automat_a9901c834eab9548d1e73eb13a4ed3ee7}\label{class_automat_a9901c834eab9548d1e73eb13a4ed3ee7}} 
+void \mbox{\hyperlink{class_automat_a9901c834eab9548d1e73eb13a4ed3ee7}{Set\+Id}} (int)
+\begin{DoxyCompactList}\small\item\em Setter for the id. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_automat_ac3cc109f5371c054c589e7f0bf7efb08}\label{class_automat_ac3cc109f5371c054c589e7f0bf7efb08}} 
+bool \mbox{\hyperlink{class_automat_ac3cc109f5371c054c589e7f0bf7efb08}{Add\+Symbol\+To\+Alphabet}} (char ch)
+\begin{DoxyCompactList}\small\item\em Ads a symbol to the alphabet. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_automat_af5bf014c15a16d47d1df919ffa32e910}\label{class_automat_af5bf014c15a16d47d1df919ffa32e910}} 
+void \mbox{\hyperlink{class_automat_af5bf014c15a16d47d1df919ffa32e910}{Set\+Alphabet}} (\mbox{\hyperlink{class_set}{Set}}$<$ char $>$ chrs)
+\begin{DoxyCompactList}\small\item\em Setter for the alphabet. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_automat_a1fc67354ba3fe2dccaa74e0265497d2c}\label{class_automat_a1fc67354ba3fe2dccaa74e0265497d2c}} 
+bool \mbox{\hyperlink{class_automat_a1fc67354ba3fe2dccaa74e0265497d2c}{Add\+State}} (bool, bool, \mbox{\hyperlink{class_set}{Set}}$<$ \mbox{\hyperlink{class_transition}{Transition}} $>$ \&)
+\begin{DoxyCompactList}\small\item\em Ads a state. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_automat_aefbf9e5e84acef39519d0b6702ffb7e1}\label{class_automat_aefbf9e5e84acef39519d0b6702ffb7e1}} 
+bool \mbox{\hyperlink{class_automat_aefbf9e5e84acef39519d0b6702ffb7e1}{Add\+State}} (int, bool, bool, \mbox{\hyperlink{class_set}{Set}}$<$ \mbox{\hyperlink{class_transition}{Transition}} $>$ \&)
+\begin{DoxyCompactList}\small\item\em Ads a state. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_automat_a28c27e0591c7705e39d704e601567853}\label{class_automat_a28c27e0591c7705e39d704e601567853}} 
+bool \mbox{\hyperlink{class_automat_a28c27e0591c7705e39d704e601567853}{Add\+State}} (\mbox{\hyperlink{class_state}{State}} \&)
+\begin{DoxyCompactList}\small\item\em Ads a state. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_automat_a9b4126424945f6c012af6a36a871ec05}\label{class_automat_a9b4126424945f6c012af6a36a871ec05}} 
+int \mbox{\hyperlink{class_automat_a9b4126424945f6c012af6a36a871ec05}{Get\+Id}} ()
+\begin{DoxyCompactList}\small\item\em Getter for the id. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_automat_a874006a3fcf9f21cccbbae14c4065875}\label{class_automat_a874006a3fcf9f21cccbbae14c4065875}} 
+bool \mbox{\hyperlink{class_automat_a874006a3fcf9f21cccbbae14c4065875}{Add\+Transition}} (int, \mbox{\hyperlink{class_transition}{Transition}} \&)
+\begin{DoxyCompactList}\small\item\em Ads a transition to a given state. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_automat_a5294659bd552fc17b2338975df447fcb}\label{class_automat_a5294659bd552fc17b2338975df447fcb}} 
+int \mbox{\hyperlink{class_automat_a5294659bd552fc17b2338975df447fcb}{Get\+States\+Count}} ()
+\begin{DoxyCompactList}\small\item\em Returns the amount of states that the automat has. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_automat_a349d72bcbd454687ac52664653131efb}\label{class_automat_a349d72bcbd454687ac52664653131efb}} 
+void \mbox{\hyperlink{class_automat_a349d72bcbd454687ac52664653131efb}{Change\+Transition}} (int id\+Of\+State, char symbol, \mbox{\hyperlink{class_set}{Set}}$<$ int $>$ new\+End)
+\begin{DoxyCompactList}\small\item\em Changes the transiton whit a given symbol of given state. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_automat_a54c92f691bc55081d968df754fb5d838}\label{class_automat_a54c92f691bc55081d968df754fb5d838}} 
+\mbox{\hyperlink{class_state}{State}} \mbox{\hyperlink{class_automat_a54c92f691bc55081d968df754fb5d838}{Merge\+States}} (\mbox{\hyperlink{class_set}{Set}}$<$ \mbox{\hyperlink{class_state}{State}} $>$)
+\begin{DoxyCompactList}\small\item\em Merges a set of states int a single state and return it. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_automat_af9e7a3b5cf25e104fc694e2456349802}\label{class_automat_af9e7a3b5cf25e104fc694e2456349802}} 
+\mbox{\hyperlink{class_set}{Set}}$<$ \mbox{\hyperlink{class_state}{State}} $>$ \mbox{\hyperlink{class_automat_af9e7a3b5cf25e104fc694e2456349802}{Get\+All\+States}} ()
+\begin{DoxyCompactList}\small\item\em Getter for the states. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_automat_a21f1cd172710759c88da91d36ffa60e0}\label{class_automat_a21f1cd172710759c88da91d36ffa60e0}} 
+\mbox{\hyperlink{class_set}{Set}}$<$ int $>$ \mbox{\hyperlink{class_automat_a21f1cd172710759c88da91d36ffa60e0}{Get\+All\+States\+Ids}} ()
+\begin{DoxyCompactList}\small\item\em Returns the set of ids that all transitions return. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_automat_ad9019ecadd44c244d0ab238ebf1df47f}\label{class_automat_ad9019ecadd44c244d0ab238ebf1df47f}} 
+\mbox{\hyperlink{class_set}{Set}}$<$ \mbox{\hyperlink{class_state}{State}} $>$ \mbox{\hyperlink{class_automat_ad9019ecadd44c244d0ab238ebf1df47f}{Get\+Start\+States}} () const
+\begin{DoxyCompactList}\small\item\em Getter the set of start states. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_automat_aaad1e9f0bc806afc974e2f2e20da034d}\label{class_automat_aaad1e9f0bc806afc974e2f2e20da034d}} 
+\mbox{\hyperlink{class_set}{Set}}$<$ int $>$ \mbox{\hyperlink{class_automat_aaad1e9f0bc806afc974e2f2e20da034d}{Get\+Start\+States\+Ids}} ()
+\begin{DoxyCompactList}\small\item\em Getter the set of start states ids. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_automat_a94af25ea861cc2e6e02312aae840416d}\label{class_automat_a94af25ea861cc2e6e02312aae840416d}} 
+\mbox{\hyperlink{class_set}{Set}}$<$ \mbox{\hyperlink{class_state}{State}} $>$ \mbox{\hyperlink{class_automat_a94af25ea861cc2e6e02312aae840416d}{Get\+Final\+States}} ()
+\begin{DoxyCompactList}\small\item\em Getter the set of final states. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_automat_a92ed152123fa88c0048a093a768f596a}\label{class_automat_a92ed152123fa88c0048a093a768f596a}} 
+\mbox{\hyperlink{class_set}{Set}}$<$ int $>$ \mbox{\hyperlink{class_automat_a92ed152123fa88c0048a093a768f596a}{Get\+Final\+States\+Ids}} ()
+\begin{DoxyCompactList}\small\item\em Getter the set of final states ids. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_automat_a3c3b62f309e9d4224b9d315defa98e23}\label{class_automat_a3c3b62f309e9d4224b9d315defa98e23}} 
+\mbox{\hyperlink{class_set}{Set}}$<$ \mbox{\hyperlink{class_state}{State}} $>$ \mbox{\hyperlink{class_automat_a3c3b62f309e9d4224b9d315defa98e23}{Get\+States}} (\mbox{\hyperlink{class_set}{Set}}$<$ int $>$ id)
+\begin{DoxyCompactList}\small\item\em Getter the set of states by given a set of their ids. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_automat_a132d18feb3dbb022f494ad2a16d95979}\label{class_automat_a132d18feb3dbb022f494ad2a16d95979}} 
+int \mbox{\hyperlink{class_automat_a132d18feb3dbb022f494ad2a16d95979}{Get\+Max\+State\+Id}} (\mbox{\hyperlink{class_set}{Set}}$<$ \mbox{\hyperlink{class_state}{State}} $>$) const
+\begin{DoxyCompactList}\small\item\em Getter the id of the state whit the biggest id by a given set of states. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_automat_a8cdb261a165d671b5589fe61c4868c1e}\label{class_automat_a8cdb261a165d671b5589fe61c4868c1e}} 
+\mbox{\hyperlink{class_set}{Set}}$<$ \mbox{\hyperlink{class_state}{State}} $>$ \mbox{\hyperlink{class_automat_a8cdb261a165d671b5589fe61c4868c1e}{Change\+States\+Ids}} (\mbox{\hyperlink{class_set}{Set}}$<$ \mbox{\hyperlink{class_state}{State}} $>$, int)
+\begin{DoxyCompactList}\small\item\em Getter the id of the state whit the biggest id by a given set of states. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_automat_af5257dc97cdfc6696635e14bf5e96794}\label{class_automat_af5257dc97cdfc6696635e14bf5e96794}} 
+\mbox{\hyperlink{class_state}{State}} \mbox{\hyperlink{class_automat_af5257dc97cdfc6696635e14bf5e96794}{Get\+State}} (int id)
+\begin{DoxyCompactList}\small\item\em Gets the state by a given id. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_automat_a1758909de760ca8b1ff0a5cb17295aef}\label{class_automat_a1758909de760ca8b1ff0a5cb17295aef}} 
+bool \mbox{\hyperlink{class_automat_a1758909de760ca8b1ff0a5cb17295aef}{Has\+State}} (int id)
+\begin{DoxyCompactList}\small\item\em Checks if the automat has a state whit the given id. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_automat_ab0e16adc8dbf0754130dea51a0ee40f2}\label{class_automat_ab0e16adc8dbf0754130dea51a0ee40f2}} 
+\mbox{\hyperlink{class_set}{Set}}$<$ int $>$ \mbox{\hyperlink{class_automat_ab0e16adc8dbf0754130dea51a0ee40f2}{Get\+Transition\+States}} (int start, char symbol)
+\begin{DoxyCompactList}\small\item\em Returns the set of ids that the state returns by a given symbol. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_automat_abedc99f8363cfdcd3145fc074fd96bfc}\label{class_automat_abedc99f8363cfdcd3145fc074fd96bfc}} 
+\mbox{\hyperlink{class_set}{Set}}$<$ int $>$ \mbox{\hyperlink{class_automat_abedc99f8363cfdcd3145fc074fd96bfc}{Get\+Transition\+States}} (\mbox{\hyperlink{class_set}{Set}}$<$ int $>$ start, char symbol)
+\begin{DoxyCompactList}\small\item\em Returns the set of ids that the a set of states returns by a given symbol. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_automat_a7002d84f85a223702879f50b50600746}\label{class_automat_a7002d84f85a223702879f50b50600746}} 
+\mbox{\hyperlink{class_set}{Set}}$<$ int $>$ \mbox{\hyperlink{class_automat_a7002d84f85a223702879f50b50600746}{Get\+Transition\+States}} (int start, \mbox{\hyperlink{class_string}{String}} word)
+\begin{DoxyCompactList}\small\item\em Returns the set of ids that the automat will return by reading a \mbox{\hyperlink{class_string}{String}} and a given start state. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_automat_afcdafefdeb63029469d5befc9b63c574}\label{class_automat_afcdafefdeb63029469d5befc9b63c574}} 
+\mbox{\hyperlink{class_set}{Set}}$<$ \mbox{\hyperlink{class_state}{State}} $>$ \mbox{\hyperlink{class_automat_afcdafefdeb63029469d5befc9b63c574}{Get\+States\+That\+Can\+Reach\+Final}} ()
+\begin{DoxyCompactList}\small\item\em Returns the set of states that can reach the final state. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_automat_a7bce9271be682928fe6aa530a8fa97c4}\label{class_automat_a7bce9271be682928fe6aa530a8fa97c4}} 
+bool \mbox{\hyperlink{class_automat_a7bce9271be682928fe6aa530a8fa97c4}{Can\+Reach\+Final}} (\mbox{\hyperlink{class_state}{State}})
+\begin{DoxyCompactList}\small\item\em Checks if the state can reach a final state. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_automat_aaa3ef6335d873e7106a0197edf7a6b1a}\label{class_automat_aaa3ef6335d873e7106a0197edf7a6b1a}} 
+bool \mbox{\hyperlink{class_automat_aaa3ef6335d873e7106a0197edf7a6b1a}{Can\+Reach\+State}} (\mbox{\hyperlink{class_state}{State}}, \mbox{\hyperlink{class_state}{State}})
+\begin{DoxyCompactList}\small\item\em Checks if a given state can reach another given state. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_automat_a987cf706ed5b2e8fa991f3a74be574b8}\label{class_automat_a987cf706ed5b2e8fa991f3a74be574b8}} 
+void \mbox{\hyperlink{class_automat_a987cf706ed5b2e8fa991f3a74be574b8}{print}} () const
+\begin{DoxyCompactList}\small\item\em Prints the automat. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_automat_a9fdccab6d9d73aa4988929e7a55307da}\label{class_automat_a9fdccab6d9d73aa4988929e7a55307da}} 
+void \mbox{\hyperlink{class_automat_a9fdccab6d9d73aa4988929e7a55307da}{print}} (std\+::ostream \&os) const
+\begin{DoxyCompactList}\small\item\em Prints the automat to a given stream. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_automat_aa7766ee03e929192d00c740e6dbec410}\label{class_automat_aa7766ee03e929192d00c740e6dbec410}} 
+void \mbox{\hyperlink{class_automat_aa7766ee03e929192d00c740e6dbec410}{save}} (std\+::fstream \&) const
+\begin{DoxyCompactList}\small\item\em Saves the automat to a given file stream. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_automat_a8b01e5d37d82c361332ca91d97d48144}\label{class_automat_a8b01e5d37d82c361332ca91d97d48144}} 
+void \mbox{\hyperlink{class_automat_a8b01e5d37d82c361332ca91d97d48144}{save}} (std\+::ofstream \&) const
+\begin{DoxyCompactList}\small\item\em Saves the automat to a given output file stream. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_automat_a3f7547edc616f9846e76f575e1b36847}\label{class_automat_a3f7547edc616f9846e76f575e1b36847}} 
+void \mbox{\hyperlink{class_automat_a3f7547edc616f9846e76f575e1b36847}{save}} (\mbox{\hyperlink{class_string}{String}} \&) const
+\begin{DoxyCompactList}\small\item\em Saves the automat to a given \mbox{\hyperlink{class_string}{String}} object. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_automat_a6bd719b402bbf445f846b33341e3a326}\label{class_automat_a6bd719b402bbf445f846b33341e3a326}} 
+bool \mbox{\hyperlink{class_automat_a6bd719b402bbf445f846b33341e3a326}{empty}} ()
+\begin{DoxyCompactList}\small\item\em Checks if the language of the automat is empty. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_automat_abc0a1ade487e66dd60cde2692ccee5b1}\label{class_automat_abc0a1ade487e66dd60cde2692ccee5b1}} 
+bool \mbox{\hyperlink{class_automat_abc0a1ade487e66dd60cde2692ccee5b1}{deterministic}} ()
+\begin{DoxyCompactList}\small\item\em Checks if the automat is deterministic. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_automat_a925a056f5b9c3b4c6040d964ef17a179}\label{class_automat_a925a056f5b9c3b4c6040d964ef17a179}} 
+bool \mbox{\hyperlink{class_automat_a925a056f5b9c3b4c6040d964ef17a179}{recognize}} (\mbox{\hyperlink{class_string}{String}})
+\begin{DoxyCompactList}\small\item\em Checks if the automat can recognize a word. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_automat_ab0215dbbbe9fdc91ecdd0d831dbc47a6}\label{class_automat_ab0215dbbbe9fdc91ecdd0d831dbc47a6}} 
+\mbox{\hyperlink{class_automat}{Automat}} \mbox{\hyperlink{class_automat_ab0215dbbbe9fdc91ecdd0d831dbc47a6}{Union\+Of\+Atutomats}} (const \mbox{\hyperlink{class_automat}{Automat}} \&) const
+\begin{DoxyCompactList}\small\item\em Return the union of the automat whit a given automat. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_automat_a4bc1775a81b024881a42f9da4bdd385b}\label{class_automat_a4bc1775a81b024881a42f9da4bdd385b}} 
+\mbox{\hyperlink{class_automat}{Automat}} \mbox{\hyperlink{class_automat_a4bc1775a81b024881a42f9da4bdd385b}{Concat}} (const \mbox{\hyperlink{class_automat}{Automat}} \&) const
+\begin{DoxyCompactList}\small\item\em Return the concatenation of the automat whit a given automat. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_automat_a7911b3d765efe0cf259b52305926c017}\label{class_automat_a7911b3d765efe0cf259b52305926c017}} 
+\mbox{\hyperlink{class_automat}{Automat}} \mbox{\hyperlink{class_automat_a7911b3d765efe0cf259b52305926c017}{Positive\+Wrap}} () const
+\begin{DoxyCompactList}\small\item\em Return the positive wrap of the automat. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_automat_acdf0392a5c2fa716e51e1a039dd1c995}\label{class_automat_acdf0392a5c2fa716e51e1a039dd1c995}} 
+\mbox{\hyperlink{class_automat}{Automat}} \mbox{\hyperlink{class_automat_acdf0392a5c2fa716e51e1a039dd1c995}{Kleene\+Star}} () const
+\begin{DoxyCompactList}\small\item\em Return the Kleene\textquotesingle{}s star of the automat. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_automat_ac28be0be5b540b2542c836c2d7595c46}\label{class_automat_ac28be0be5b540b2542c836c2d7595c46}} 
+void \mbox{\hyperlink{class_automat_ac28be0be5b540b2542c836c2d7595c46}{determinate}} ()
+\begin{DoxyCompactList}\small\item\em Determinates the automat. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_automat_ae2e60f0e38f6bb859ab247804f91a820}\label{class_automat_ae2e60f0e38f6bb859ab247804f91a820}} 
+bool \mbox{\hyperlink{class_automat_ae2e60f0e38f6bb859ab247804f91a820}{is\+Finite}} ()
+\begin{DoxyCompactList}\small\item\em Checks if the language of the automat is finite. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_automat_a16a5760e0f14ce9a5a78667b2fc140eb}\label{class_automat_a16a5760e0f14ce9a5a78667b2fc140eb}} 
+\index{Automat@{Automat}!Automat@{Automat}}
+\index{Automat@{Automat}!Automat@{Automat}}
+\doxysubsubsection{\texorpdfstring{Automat()}{Automat()}}
+{\footnotesize\ttfamily Automat\+::\+Automat (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_string}{String}} \&}]{regex,  }\item[{\mbox{\hyperlink{class_set}{Set}}$<$ char $>$}]{alphabet,  }\item[{bool}]{sss }\end{DoxyParamCaption})}
+
+Constuctor that creates an automat from a regex expresion and set of symbols(alphabet) and bool it was an attempt to make the function work with nested brackets. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Automat.\+h\item 
+Automat.\+cpp\end{DoxyCompactItemize}

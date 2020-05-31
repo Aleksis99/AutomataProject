@@ -1,0 +1,276 @@
+﻿  Automat.cpp
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Automat.cpp(39,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Automat.cpp(48,26): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Automat.cpp(105,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Automat.cpp(117,26): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Automat.cpp(723,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(143,26): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(142): message : while compiling class template member function 'T &Set<T>::operator [](const int)'
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(142): message :         with
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(142): message :         [
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(142): message :             T=int
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(142): message :         ]
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Automat.cpp(378): message : see reference to function template instantiation 'T &Set<T>::operator [](const int)' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Automat.cpp(378): message :         with
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Automat.cpp(378): message :         [
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Automat.cpp(378): message :             T=int
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Automat.cpp(378): message :         ]
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Transition.h(8): message : see reference to class template instantiation 'Set<int>' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(155,26): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(154): message : while compiling class template member function 'const T &Set<T>::operator [](const int) const'
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(154): message :         with
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(154): message :         [
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(154): message :             T=State
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(154): message :         ]
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Automat.cpp(329): message : see reference to function template instantiation 'const T &Set<T>::operator [](const int) const' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Automat.cpp(329): message :         with
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Automat.cpp(329): message :         [
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Automat.cpp(329): message :             T=State
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Automat.cpp(329): message :         ]
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Automat.h(10): message : see reference to class template instantiation 'Set<State>' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(223,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(221): message : while compiling class template member function 'bool Set<State>::Contains(T) const'
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(221): message :         with
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(221): message :         [
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(221): message :             T=State
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(221): message :         ]
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Automat.cpp(496): message : see reference to function template instantiation 'bool Set<State>::Contains(T) const' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Automat.cpp(496): message :         with
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Automat.cpp(496): message :         [
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Automat.cpp(496): message :             T=State
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Automat.cpp(496): message :         ]
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(289,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Automat.cpp(442): message : see reference to function template instantiation 'Set<int> Union<int>(Set<int> &,Set<int> &)' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(292,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(275,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Automat.cpp(458): message : see reference to function template instantiation 'Set<int> Union<int>(const Set<int> &,const Set<int> &)' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(278,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(303,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Automat.cpp(588): message : see reference to function template instantiation 'Set<State> Intersection<State>(const Set<State> &,const Set<State> &)' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(304,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MyVec.hpp(158,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MyVec.hpp(157): message : while compiling class template member function 'int Vector<Set<int>>::findItem(const T &)'
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MyVec.hpp(157): message :         with
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MyVec.hpp(157): message :         [
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MyVec.hpp(157): message :             T=Set<int>
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MyVec.hpp(157): message :         ]
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Automat.cpp(729): message : see reference to function template instantiation 'int Vector<Set<int>>::findItem(const T &)' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Automat.cpp(729): message :         with
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Automat.cpp(729): message :         [
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Automat.cpp(729): message :             T=Set<int>
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Automat.cpp(729): message :         ]
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Automat.cpp(716): message : see reference to class template instantiation 'Vector<Set<int>>' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(96,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(90): message : while compiling class template member function 'void Set<int>::CopySet(const Set<int> &)'
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(75): message : see reference to function template instantiation 'void Set<int>::CopySet(const Set<int> &)' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(74): message : while compiling class template member function 'Set<int>::Set(const Set<int> &)'
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Automat.cpp(190): message : see reference to function template instantiation 'Set<int>::Set(const Set<int> &)' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(117,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(113): message : while compiling class template member function 'void Set<int>::Resize(void)'
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(180): message : see reference to function template instantiation 'void Set<int>::Resize(void)' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(131,26): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(130): message : while compiling class template member function 'T Set<T>::getElement(const int) const'
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(130): message :         with
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(130): message :         [
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(130): message :             T=int
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(130): message :         ]
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(290): message : see reference to function template instantiation 'T Set<T>::getElement(const int) const' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(290): message :         with
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(290): message :         [
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(290): message :             T=int
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(290): message :         ]
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(350,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(347): message : while compiling class template member function 'bool Set<int>::operator ==(const Set<int> &) const'
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MyVec.hpp(160): message : see reference to function template instantiation 'bool Set<int>::operator ==(const Set<int> &) const' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MyVec.hpp(118,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MyVec.hpp(114): message : while compiling class template member function 'void Vector<int>::resize(void)'
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MyVec.hpp(109): message : see reference to function template instantiation 'void Vector<int>::resize(void)' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MyVec.hpp(41): message : while compiling class template member function 'Vector<int>::Vector(void)'
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Automat.cpp(29): message : see reference to function template instantiation 'Vector<int>::Vector(void)' being compiled
+  Automat_OOP_Project.cpp
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Automat.cpp(29): message : see reference to class template instantiation 'Vector<int>' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(96,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(90): message : while compiling class template member function 'void Set<Transition>::CopySet(const Set<Transition> &)'
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(84): message : see reference to function template instantiation 'void Set<Transition>::CopySet(const Set<Transition> &)' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(79): message : while compiling class template member function 'Set<Transition> &Set<Transition>::operator =(const Set<Transition> &)'
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\State.h(14): message : see reference to function template instantiation 'Set<Transition> &Set<Transition>::operator =(const Set<Transition> &)' being compiled
+  FiniteAutomatSystem.cpp
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\State.h(8): message : see reference to class template instantiation 'Set<Transition>' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\FiniteAutomatSystem.cpp(105,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\FiniteAutomatSystem.cpp(244,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\FiniteAutomatSystem.cpp(357,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\FiniteAutomatSystem.cpp(374,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\FiniteAutomatSystem.cpp(457,29): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(223,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(221): message : while compiling class template member function 'bool Set<char>::Contains(T) const'
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(221): message :         with
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(221): message :         [
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(221): message :             T=char
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(221): message :         ]
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\FiniteAutomatSystem.cpp(183): message : see reference to function template instantiation 'bool Set<char>::Contains(T) const' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\FiniteAutomatSystem.cpp(183): message :         with
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\FiniteAutomatSystem.cpp(183): message :         [
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\FiniteAutomatSystem.cpp(183): message :             T=char
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\FiniteAutomatSystem.cpp(183): message :         ]
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Automat.h(9): message : see reference to class template instantiation 'Set<char>' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(96,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(90): message : while compiling class template member function 'void Set<int>::CopySet(const Set<int> &)'
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(75): message : see reference to function template instantiation 'void Set<int>::CopySet(const Set<int> &)' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(74): message : while compiling class template member function 'Set<int>::Set(const Set<int> &)'
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\FiniteAutomatSystem.cpp(461): message : see reference to function template instantiation 'Set<int>::Set(const Set<int> &)' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Transition.h(8): message : see reference to class template instantiation 'Set<int>' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(117,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(113): message : while compiling class template member function 'void Set<int>::Resize(void)'
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(180): message : see reference to function template instantiation 'void Set<int>::Resize(void)' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MyVec.hpp(118,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MyVec.hpp(114): message : while compiling class template member function 'void Vector<Automat>::resize(void)'
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MyVec.hpp(109): message : see reference to function template instantiation 'void Vector<Automat>::resize(void)' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MyVec.hpp(41): message : while compiling class template member function 'Vector<Automat>::Vector(void)'
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\FiniteAutomatSystem.cpp(4): message : see reference to function template instantiation 'Vector<Automat>::Vector(void)' being compiled
+  State.cpp
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\FiniteAutomatSystem.h(5): message : see reference to class template instantiation 'Vector<Automat>' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(143,26): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(142): message : while compiling class template member function 'T &Set<T>::operator [](const int)'
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(142): message :         with
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(142): message :         [
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(142): message :             T=int
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(142): message :         ]
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\State.cpp(108): message : see reference to function template instantiation 'T &Set<T>::operator [](const int)' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\State.cpp(108): message :         with
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\State.cpp(108): message :         [
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\State.cpp(108): message :             T=int
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\State.cpp(108): message :         ]
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Transition.h(8): message : see reference to class template instantiation 'Set<int>' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(223,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(221): message : while compiling class template member function 'bool Set<int>::Contains(T) const'
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(221): message :         with
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(221): message :         [
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(221): message :             T=int
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(221): message :         ]
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\State.cpp(98): message : see reference to function template instantiation 'bool Set<int>::Contains(T) const' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\State.cpp(98): message :         with
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\State.cpp(98): message :         [
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\State.cpp(98): message :             T=int
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\State.cpp(98): message :         ]
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(155,26): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(154): message : while compiling class template member function 'const T &Set<T>::operator [](const int) const'
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(154): message :         with
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(154): message :         [
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(154): message :             T=Transition
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(154): message :         ]
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\State.cpp(161): message : see reference to function template instantiation 'const T &Set<T>::operator [](const int) const' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\State.cpp(161): message :         with
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\State.cpp(161): message :         [
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\State.cpp(161): message :             T=Transition
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\State.cpp(161): message :         ]
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\State.h(8): message : see reference to class template instantiation 'Set<Transition>' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(275,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\State.cpp(152): message : see reference to function template instantiation 'Set<int> Union<int>(const Set<int> &,const Set<int> &)' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(278,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(289,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\State.cpp(219): message : see reference to function template instantiation 'Set<Transition> Union<Transition>(Set<Transition> &,Set<Transition> &)' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(292,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(96,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(90): message : while compiling class template member function 'void Set<int>::CopySet(const Set<int> &)'
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(75): message : see reference to function template instantiation 'void Set<int>::CopySet(const Set<int> &)' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(74): message : while compiling class template member function 'Set<int>::Set(const Set<int> &)'
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\State.cpp(56): message : see reference to function template instantiation 'Set<int>::Set(const Set<int> &)' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(131,26): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(130): message : while compiling class template member function 'T Set<T>::getElement(const int) const'
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(130): message :         with
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(130): message :         [
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(130): message :             T=int
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(130): message :         ]
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(276): message : see reference to function template instantiation 'T Set<T>::getElement(const int) const' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(276): message :         with
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(276): message :         [
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(276): message :             T=int
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(276): message :         ]
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(117,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(113): message : while compiling class template member function 'void Set<Transition>::Resize(void)'
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(180): message : see reference to function template instantiation 'void Set<Transition>::Resize(void)' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(205,26): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(204): message : while compiling class template member function 'bool Set<Transition>::RemoveAt(int)'
+  Transition.cpp
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(194): message : see reference to function template instantiation 'bool Set<Transition>::RemoveAt(int)' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(155,26): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(154): message : while compiling class template member function 'const T &Set<T>::operator [](const int) const'
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(154): message :         with
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(154): message :         [
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(154): message :             T=int
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(154): message :         ]
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Transition.cpp(57): message : see reference to function template instantiation 'const T &Set<T>::operator [](const int) const' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Transition.cpp(57): message :         with
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Transition.cpp(57): message :         [
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Transition.cpp(57): message :             T=int
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Transition.cpp(57): message :         ]
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Transition.h(8): message : see reference to class template instantiation 'Set<int>' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(143,26): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(142): message : while compiling class template member function 'T &Set<T>::operator [](const int)'
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(142): message :         with
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(142): message :         [
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(142): message :             T=int
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(142): message :         ]
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Transition.cpp(110): message : see reference to function template instantiation 'T &Set<T>::operator [](const int)' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Transition.cpp(110): message :         with
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Transition.cpp(110): message :         [
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Transition.cpp(110): message :             T=int
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Transition.cpp(110): message :         ]
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(289,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Transition.cpp(44): message : see reference to function template instantiation 'Set<int> Union<int>(Set<int> &,Set<int> &)' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(292,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(96,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(90): message : while compiling class template member function 'void Set<int>::CopySet(const Set<int> &)'
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(75): message : see reference to function template instantiation 'void Set<int>::CopySet(const Set<int> &)' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(74): message : while compiling class template member function 'Set<int>::Set(const Set<int> &)'
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Transition.cpp(31): message : see reference to function template instantiation 'Set<int>::Set(const Set<int> &)' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(117,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(113): message : while compiling class template member function 'void Set<int>::Resize(void)'
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(180): message : see reference to function template instantiation 'void Set<int>::Resize(void)' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(131,26): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(130): message : while compiling class template member function 'T Set<T>::getElement(const int) const'
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(130): message :         with
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(130): message :         [
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(130): message :             T=int
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(130): message :         ]
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(290): message : see reference to function template instantiation 'T Set<T>::getElement(const int) const' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(290): message :         with
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(290): message :         [
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(290): message :             T=int
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(290): message :         ]
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(223,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(221): message : while compiling class template member function 'bool Set<int>::Contains(T) const'
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(221): message :         with
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(221): message :         [
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(221): message :             T=int
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(221): message :         ]
+  Generating Code...
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(178): message : see reference to function template instantiation 'bool Set<int>::Contains(T) const' being compiled
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(178): message :         with
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(178): message :         [
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(178): message :             T=int
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(178): message :         ]
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(162): warning C4715: 'Set<int>::operator[]': not all control paths return a value
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(150): warning C4715: 'Set<int>::operator[]': not all control paths return a value
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(138): warning C4715: 'Set<int>::getElement': not all control paths return a value
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\State.cpp(93): warning C4715: 'State::GetTransitionSet': not all control paths return a value
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(150): warning C4715: 'Set<Transition>::operator[]': not all control paths return a value
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(150): warning C4715: 'Set<int>::operator[]': not all control paths return a value
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(150): warning C4715: 'Set<State>::operator[]': not all control paths return a value
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(162): warning C4715: 'Set<Transition>::operator[]': not all control paths return a value
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(138): warning C4715: 'Set<int>::getElement': not all control paths return a value
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(138): warning C4715: 'Set<Transition>::getElement': not all control paths return a value
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MyVec.hpp(101): warning C4715: 'Vector<Automat>::operator[]': not all control paths return a value
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MyVec.hpp(90): warning C4715: 'Vector<Automat>::operator[]': not all control paths return a value
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MyVec.hpp(90): warning C4715: 'Vector<String>::operator[]': not all control paths return a value
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\Automat.cpp(416): warning C4715: 'Automat::GetState': not all control paths return a value
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(150): warning C4715: 'Set<State>::operator[]': not all control paths return a value
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MyVec.hpp(90): warning C4715: 'Vector<String>::operator[]': not all control paths return a value
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(150): warning C4715: 'Set<Transition>::operator[]': not all control paths return a value
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(162): warning C4715: 'Set<State>::operator[]': not all control paths return a value
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MyVec.hpp(90): warning C4715: 'Vector<char>::operator[]': not all control paths return a value
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(150): warning C4715: 'Set<int>::operator[]': not all control paths return a value
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(150): warning C4715: 'Set<char>::operator[]': not all control paths return a value
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(138): warning C4715: 'Set<int>::getElement': not all control paths return a value
+C:\Users\user\source\repos\Automat_OOP_Project\Automat_OOP_Project\MySet.hpp(138): warning C4715: 'Set<State>::getElement': not all control paths return a value
+  Automat_OOP_Project.vcxproj -> C:\Users\user\source\repos\Automat_OOP_Project\Debug\Automat_OOP_Project.exe

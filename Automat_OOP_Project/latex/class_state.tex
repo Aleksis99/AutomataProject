@@ -1,0 +1,104 @@
+\hypertarget{class_state}{}\doxysection{State Class Reference}
+\label{class_state}\index{State@{State}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_state_a2e783d54fcf2bb0f39aea78444f59d5b}\label{class_state_a2e783d54fcf2bb0f39aea78444f59d5b}} 
+{\bfseries State} (int id, bool is\+Start, bool is\+Final)
+\item 
+\mbox{\Hypertarget{class_state_aab1fdac56c3cff8d1ca0262388076559}\label{class_state_aab1fdac56c3cff8d1ca0262388076559}} 
+{\bfseries State} (int id, bool is\+Start, bool is\+Final, \mbox{\hyperlink{class_set}{Set}}$<$ \mbox{\hyperlink{class_transition}{Transition}} $>$ transitions)
+\item 
+\mbox{\Hypertarget{class_state_a7325c890ee133fde5ca26eb4cea1f8ce}\label{class_state_a7325c890ee133fde5ca26eb4cea1f8ce}} 
+{\bfseries State} (const \mbox{\hyperlink{class_state}{State}} \&other)
+\item 
+\mbox{\Hypertarget{class_state_a57229f2db32144885eef8b7d8da598ef}\label{class_state_a57229f2db32144885eef8b7d8da598ef}} 
+\mbox{\hyperlink{class_state}{State}} \& {\bfseries operator=} (const \mbox{\hyperlink{class_state}{State}} \&other)
+\item 
+\mbox{\Hypertarget{class_state_a8109d7662e06affa584641dc1b08c1a2}\label{class_state_a8109d7662e06affa584641dc1b08c1a2}} 
+bool {\bfseries operator==} (\mbox{\hyperlink{class_state}{State}} \&other)
+\item 
+\mbox{\Hypertarget{class_state_adb2136a330eddafe1e9e7e852a1af7d4}\label{class_state_adb2136a330eddafe1e9e7e852a1af7d4}} 
+bool {\bfseries operator==} (const \mbox{\hyperlink{class_state}{State}} \&other)
+\item 
+\mbox{\Hypertarget{class_state_abba5f90fa1b64fce5ef7791dcc84b84d}\label{class_state_abba5f90fa1b64fce5ef7791dcc84b84d}} 
+bool \mbox{\hyperlink{class_state_abba5f90fa1b64fce5ef7791dcc84b84d}{Is\+Start}} () const
+\begin{DoxyCompactList}\small\item\em Checks if the state is a start state. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_state_a0060fa2fbd3fcbae3761e6349603f297}\label{class_state_a0060fa2fbd3fcbae3761e6349603f297}} 
+bool \mbox{\hyperlink{class_state_a0060fa2fbd3fcbae3761e6349603f297}{Is\+Final}} () const
+\begin{DoxyCompactList}\small\item\em Checks if the state is a final state. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_state_a740dbf8fb402523c199df235fc66d313}\label{class_state_a740dbf8fb402523c199df235fc66d313}} 
+void \mbox{\hyperlink{class_state_a740dbf8fb402523c199df235fc66d313}{Set\+Is\+Start}} (bool is\+Start)
+\begin{DoxyCompactList}\small\item\em Sets the state is\+Start value. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_state_ad9aa8144900712c965b96f56b756eaa9}\label{class_state_ad9aa8144900712c965b96f56b756eaa9}} 
+void \mbox{\hyperlink{class_state_ad9aa8144900712c965b96f56b756eaa9}{Set\+Is\+Final}} (bool is\+Final)
+\begin{DoxyCompactList}\small\item\em Sets the state is\+Final value. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_state_a19ee9cdb58a10e150e919056071fff2c}\label{class_state_a19ee9cdb58a10e150e919056071fff2c}} 
+bool \mbox{\hyperlink{class_state_a19ee9cdb58a10e150e919056071fff2c}{Add\+Transition}} (\mbox{\hyperlink{class_transition}{Transition}} new\+Transition)
+\begin{DoxyCompactList}\small\item\em Adds a new transition. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_state_a3a80b63d13acf3c66a27296259edd4f2}\label{class_state_a3a80b63d13acf3c66a27296259edd4f2}} 
+void \mbox{\hyperlink{class_state_a3a80b63d13acf3c66a27296259edd4f2}{Remove\+Transition}} (\mbox{\hyperlink{class_transition}{Transition}} new\+Transition)
+\begin{DoxyCompactList}\small\item\em Removes a given transition. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_state_af0ce23acadd6f788e3a250003074742d}\label{class_state_af0ce23acadd6f788e3a250003074742d}} 
+void \mbox{\hyperlink{class_state_af0ce23acadd6f788e3a250003074742d}{Set\+Id}} (int new\+Id)
+\begin{DoxyCompactList}\small\item\em Setter for the id. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_state_ab8bf9c229532070a570e1325a0fdf41e}\label{class_state_ab8bf9c229532070a570e1325a0fdf41e}} 
+int \mbox{\hyperlink{class_state_ab8bf9c229532070a570e1325a0fdf41e}{Get\+Id}} ()
+\begin{DoxyCompactList}\small\item\em Getter for the id. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_state_af0a4202cbb29b28c4914fe0630a1204d}\label{class_state_af0a4202cbb29b28c4914fe0630a1204d}} 
+bool \mbox{\hyperlink{class_state_af0a4202cbb29b28c4914fe0630a1204d}{Add\+Transition}} (char symbol, \mbox{\hyperlink{class_set}{Set}}$<$ int $>$ a)
+\begin{DoxyCompactList}\small\item\em Ads a new transtion by given transition symbol and set of end ids. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_state_a39df66000b15518dc48aa36f8ceff1c8}\label{class_state_a39df66000b15518dc48aa36f8ceff1c8}} 
+\mbox{\hyperlink{class_set}{Set}}$<$ int $>$ \mbox{\hyperlink{class_state_a39df66000b15518dc48aa36f8ceff1c8}{Get\+Transition\+Set}} (char ch)
+\begin{DoxyCompactList}\small\item\em Returns the transition set that the transtion return corresponding to the given symbol. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_state_acbb163cfbec0e621bdede0903d687284}\label{class_state_acbb163cfbec0e621bdede0903d687284}} 
+bool \mbox{\hyperlink{class_state_acbb163cfbec0e621bdede0903d687284}{Can\+Reach}} (int other\+Id)
+\begin{DoxyCompactList}\small\item\em Checks if the state can reach the given state by any of its transitions. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_state_a118738fe9d1314977abede7771e77a41}\label{class_state_a118738fe9d1314977abede7771e77a41}} 
+bool \mbox{\hyperlink{class_state_a118738fe9d1314977abede7771e77a41}{Can\+Reach}} (\mbox{\hyperlink{class_set}{Set}}$<$ int $>$ other\+Ids)
+\begin{DoxyCompactList}\small\item\em Checks if the state can reach the given states by any of its transitions. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_state_a35eacb47b4ca8d60340401ff120fcb72}\label{class_state_a35eacb47b4ca8d60340401ff120fcb72}} 
+bool \mbox{\hyperlink{class_state_a35eacb47b4ca8d60340401ff120fcb72}{Can\+Reach}} (\mbox{\hyperlink{class_state}{State}} other)
+\begin{DoxyCompactList}\small\item\em Checks if the state can reach the given state by any of its transitions. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_state_ab9af1f0784abb7ec2c764963e0ba051d}\label{class_state_ab9af1f0784abb7ec2c764963e0ba051d}} 
+bool {\bfseries Can\+Reach} (\mbox{\hyperlink{class_set}{Set}}$<$ \mbox{\hyperlink{class_state}{State}} $>$ other)
+\item 
+\mbox{\Hypertarget{class_state_a06712c88421b31c01e8d6464defd9207}\label{class_state_a06712c88421b31c01e8d6464defd9207}} 
+bool {\bfseries Is\+Error} ()
+\item 
+\mbox{\Hypertarget{class_state_ad8c4999d411669b4a179f6269371e372}\label{class_state_ad8c4999d411669b4a179f6269371e372}} 
+int {\bfseries get\+Transitions\+Count} ()
+\item 
+\mbox{\Hypertarget{class_state_a726e68b8dd96a3ad21a64f2236109285}\label{class_state_a726e68b8dd96a3ad21a64f2236109285}} 
+void {\bfseries print} () const
+\item 
+\mbox{\Hypertarget{class_state_a2f73f7ecee865f3639778a786d611333}\label{class_state_a2f73f7ecee865f3639778a786d611333}} 
+void {\bfseries print} (std\+::ostream \&os) const
+\item 
+\mbox{\Hypertarget{class_state_acd369c440ceac449b709f67bc3a54b42}\label{class_state_acd369c440ceac449b709f67bc3a54b42}} 
+void {\bfseries save} (std\+::fstream \&os) const
+\item 
+\mbox{\Hypertarget{class_state_aa09ac2fab954788cd4b3afdc176bd1c6}\label{class_state_aa09ac2fab954788cd4b3afdc176bd1c6}} 
+void {\bfseries save} (std\+::ofstream \&os) const
+\item 
+\mbox{\Hypertarget{class_state_a21976b7a0af83e00e602c32cdd3f1fd2}\label{class_state_a21976b7a0af83e00e602c32cdd3f1fd2}} 
+void {\bfseries save} (\mbox{\hyperlink{class_string}{String}} \&file) const
+\item 
+\mbox{\Hypertarget{class_state_a9112f57ea972eb41c98404702639fb3b}\label{class_state_a9112f57ea972eb41c98404702639fb3b}} 
+bool {\bfseries deterministic\+Transitions} () const
+\item 
+\mbox{\Hypertarget{class_state_a97603755f69173961586867a165da164}\label{class_state_a97603755f69173961586867a165da164}} 
+\mbox{\hyperlink{class_set}{Set}}$<$ \mbox{\hyperlink{class_transition}{Transition}} $>$ \& {\bfseries Get\+All\+Transitions} ()
+\item 
+\mbox{\Hypertarget{class_state_af35712c71269b7303da8dc3f8d5c6fdc}\label{class_state_af35712c71269b7303da8dc3f8d5c6fdc}} 
+void {\bfseries Add\+Transitions} (\mbox{\hyperlink{class_set}{Set}}$<$ \mbox{\hyperlink{class_transition}{Transition}} $>$ new\+Transitions)
+\item 
+\mbox{\Hypertarget{class_state_a41c827c61b31a7078a9eeddd364dccde}\label{class_state_a41c827c61b31a7078a9eeddd364dccde}} 
+void {\bfseries Change\+End\+Ids} (int change)
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+State.\+h\item 
+State.\+cpp\end{DoxyCompactItemize}

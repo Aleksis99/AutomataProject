@@ -1,0 +1,59 @@
+\hypertarget{class_transition}{}\doxysection{Transition Class Reference}
+\label{class_transition}\index{Transition@{Transition}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_transition_a8a661b52902f0ce9ac94ecb5ed1a0e77}\label{class_transition_a8a661b52902f0ce9ac94ecb5ed1a0e77}} 
+{\bfseries Transition} (char symbol)
+\item 
+\mbox{\Hypertarget{class_transition_a047ade042b286075174c9d8e5fde21d4}\label{class_transition_a047ade042b286075174c9d8e5fde21d4}} 
+{\bfseries Transition} (char symbol, \mbox{\hyperlink{class_set}{Set}}$<$ int $>$ end)
+\item 
+\mbox{\Hypertarget{class_transition_a329d4f63367c315d2f21403dc0b4f884}\label{class_transition_a329d4f63367c315d2f21403dc0b4f884}} 
+bool {\bfseries operator==} (\mbox{\hyperlink{class_transition}{Transition}} \&other)
+\item 
+\mbox{\Hypertarget{class_transition_a7f1de12d510a90bab275fc378ff419e9}\label{class_transition_a7f1de12d510a90bab275fc378ff419e9}} 
+bool {\bfseries operator==} (const \mbox{\hyperlink{class_transition}{Transition}} \&other)
+\item 
+\mbox{\Hypertarget{class_transition_ab5d6e5e195bb8b4ea650926947d197cf}\label{class_transition_ab5d6e5e195bb8b4ea650926947d197cf}} 
+char \mbox{\hyperlink{class_transition_ab5d6e5e195bb8b4ea650926947d197cf}{Get\+Symbol}} ()
+\begin{DoxyCompactList}\small\item\em Gets the symbol that the transition requares. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_transition_ae36a53379578db978887d3f2d1e690fb}\label{class_transition_ae36a53379578db978887d3f2d1e690fb}} 
+\mbox{\hyperlink{class_set}{Set}}$<$ int $>$ \mbox{\hyperlink{class_transition_ae36a53379578db978887d3f2d1e690fb}{Get\+End}} () const
+\begin{DoxyCompactList}\small\item\em Gets the set of states that the transition returns. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_transition_a80aac45320b3762e293570626b2eb0b7}\label{class_transition_a80aac45320b3762e293570626b2eb0b7}} 
+void \mbox{\hyperlink{class_transition_a80aac45320b3762e293570626b2eb0b7}{Set\+Symbol}} (char ch)
+\begin{DoxyCompactList}\small\item\em Setter for the symbol. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_transition_aba1024f06f733f4ad36b4e07a9cdbdf4}\label{class_transition_aba1024f06f733f4ad36b4e07a9cdbdf4}} 
+void \mbox{\hyperlink{class_transition_aba1024f06f733f4ad36b4e07a9cdbdf4}{Set\+End}} (\mbox{\hyperlink{class_set}{Set}}$<$ int $>$ a)
+\begin{DoxyCompactList}\small\item\em Setter for the end. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_transition_a5310b4fa99f316b4142c785416dc1b52}\label{class_transition_a5310b4fa99f316b4142c785416dc1b52}} 
+void \mbox{\hyperlink{class_transition_a5310b4fa99f316b4142c785416dc1b52}{Add\+Transition}} (\mbox{\hyperlink{class_set}{Set}}$<$ int $>$ a)
+\begin{DoxyCompactList}\small\item\em Ads a set of staters that the transition terurns. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_transition_af25d30688761c23f8fde99f8a3dc9d74}\label{class_transition_af25d30688761c23f8fde99f8a3dc9d74}} 
+void \mbox{\hyperlink{class_transition_af25d30688761c23f8fde99f8a3dc9d74}{Add\+Transition}} (int a)
+\begin{DoxyCompactList}\small\item\em Ads a state that the transition terurns. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_transition_a675cd3e43985db2990e2f41caec4b19d}\label{class_transition_a675cd3e43985db2990e2f41caec4b19d}} 
+void \mbox{\hyperlink{class_transition_a675cd3e43985db2990e2f41caec4b19d}{print}} () const
+\begin{DoxyCompactList}\small\item\em Prints the transition. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_transition_abae4b69096b061dbfa8a8099e27f801d}\label{class_transition_abae4b69096b061dbfa8a8099e27f801d}} 
+void \mbox{\hyperlink{class_transition_abae4b69096b061dbfa8a8099e27f801d}{print}} (std\+::ostream \&os) const
+\begin{DoxyCompactList}\small\item\em Prints the transition to a selected stream. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_transition_a517f8ccdad6520ed2244878a3dad10d8}\label{class_transition_a517f8ccdad6520ed2244878a3dad10d8}} 
+void \mbox{\hyperlink{class_transition_a517f8ccdad6520ed2244878a3dad10d8}{save}} (std\+::fstream \&os) const
+\begin{DoxyCompactList}\small\item\em Saves the transition to a selected file. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_transition_aa543f14cd2d5f78debfb96732c318c3f}\label{class_transition_aa543f14cd2d5f78debfb96732c318c3f}} 
+void \mbox{\hyperlink{class_transition_aa543f14cd2d5f78debfb96732c318c3f}{save}} (std\+::ofstream \&os) const
+\begin{DoxyCompactList}\small\item\em Saves the transition to a selected file. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_transition_a2199f2cbbeb0249fc1614dccdb59497c}\label{class_transition_a2199f2cbbeb0249fc1614dccdb59497c}} 
+void \mbox{\hyperlink{class_transition_a2199f2cbbeb0249fc1614dccdb59497c}{save}} (\mbox{\hyperlink{class_string}{String}} \&file) const
+\begin{DoxyCompactList}\small\item\em Saves the transition to a \mbox{\hyperlink{class_string}{String}} object. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_transition_a4071eb1ea07e74f556deafff9c06fcd4}\label{class_transition_a4071eb1ea07e74f556deafff9c06fcd4}} 
+void \mbox{\hyperlink{class_transition_a4071eb1ea07e74f556deafff9c06fcd4}{Change\+End\+Ids}} (int change)
+\begin{DoxyCompactList}\small\item\em Changes the the ids that the transition returns by increasing them whit the given value. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Transition.\+h\item 
+Transition.\+cpp\end{DoxyCompactItemize}

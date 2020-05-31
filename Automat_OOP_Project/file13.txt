@@ -1,0 +1,28 @@
+Id : 2
+From state : 0 S = 1 F = 0
+With : a to states: 
+( 1 )
+From state : 1 S = 0 F = 0
+With : c to states: 
+( 3 )
+From state : 2 S = 0 F = 0
+With : c to states: 
+( 3 )
+From state : 3 S = 0 F = 1
+With : a to states: 
+( 1 )
+With : d to states: 
+( 5 )
+From state : 4 S = 1 F = 0
+With : d to states: 
+( 5 )
+From state : 5 S = 0 F = 1
+With : d to states: 
+( 5 )
+With : a to states: 
+( 1 )
+From state : 6 S = 1 F = 1
+With : a to states: 
+( 1 )
+With : d to states: 
+( 5 )
